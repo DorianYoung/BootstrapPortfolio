@@ -8,7 +8,6 @@ body, html {
     margin: auto;
     border-color: white;
     width: auto;
-    overflow: hidden;
 }
 
 /* Header */
@@ -117,12 +116,12 @@ a:active {
 .container-fluid {
     width: 60%;
     background-color: #ffffff;
-    min-height: 750px;
+    min-height: 1000px;
     margin-top: 2%;
     top: auto;
     margin-left: auto;
     margin-right: auto;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .container2-fluid {
@@ -190,10 +189,10 @@ p {
 /* Footer */
 
 footer {
-    background-color: #666666;
+    background-color: rgb(211, 175, 12);
     border-top-style: solid;
     border-top-width: 8px;
-    border-top-color: rgb(211, 175, 12);;
+    border-top-color: rgb(211, 175, 12);
     height: 65px;
     width: 100%;
     position: fixed;
@@ -202,6 +201,7 @@ footer {
     overflow: hidden;
     text-align: center;
     color: #ffffff;
+    background-image: url(https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=626&ext=jpg);
 }
 
 /* Name|Email Forms */
@@ -223,7 +223,7 @@ textarea {
 /* Submit Button */
 
 input[type=submit] {
-    background-color: rgb(211, 175, 12);;
+    background-color: rgb(211, 175, 12);
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     padding: 9px 27px 9px 27px;
